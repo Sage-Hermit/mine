@@ -1,0 +1,132 @@
+body
+		{
+			background-image:url("../images/car.jpg");
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			max-width: 99%;
+			background-size: cover;
+			padding-bottom: 30px;
+			padding-top: 15px;
+			width: 98%;
+		}
+
+		.pagetitle
+		{
+			background-color: #800000;
+			opacity: 0.8;
+			width: 99%;
+			margin-left: 12px;
+		}
+ 		a {
+ 			text-decoration: none;
+ 			color: #ffffff;
+ 		}
+		.pagetitle h1
+		{
+				letter-spacing: 30px;
+				font-size: 150px;
+				font-weight: bold;
+				font-family: sans-sefile:///C:/Users/USER/Downloads/Hussla/Hussla/index.html#rif;
+				color: #ffffff;
+				text-shadow: 1px 1px 1px #000000;
+				text-align: center;
+				border: 5px #000000 solid;
+		}
+
+		.image1, .image2, .image3, .image4
+		{
+			display: inline;
+			width: 24%;
+			height: 220px;
+			border: 5px solid #000000;
+		}
+
+		.image2
+		{
+			position: relative;
+			left: 20px;
+		}
+
+		.image1
+		{
+			position: relative;
+			left: 30px;
+		}
+
+		.image4
+		{
+			position: absolute;
+			right: 20px;
+		}
+
+	
+
+.description p {
+	font-family: sans-serif;
+	text-align: justify;
+	word-spacing: 2px;
+	width: 600px;
+	height: 350px;
+	color: #ffffff;
+	font-size: 20px;
+	text-indent: 30px;
+	background-color: #800000;
+	opacity: 0.8;
+	margin: 5px;
+	padding: 25px;
+	border: 5px #000000 solid;
+	border-radius: 10%;
+	padding-top: 55px;
+	cursor: none;
+}
+
+.signin{
+	font-size: 30px;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	background-color: #800000;
+	color: #ffffff;
+	padding: 15px;
+	border: 2px #000000 solid;
+}	
+
+.signup, .guest{
+	font-size: 30px;
+	width: 400px;
+	height: 40px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: #800000;
+	color: #ffffff;
+	padding: 15px 20px;
+	border: 2px #000000 solid;
+}
+
+.signin, .signup, .guest{
+	font-family: sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+.signup:hover{
+	color: #ed719e;
+}
+.signin:hover{
+	color: #ed719e;
+}
+.guest:hover {
+	color: #ed719e;
+}
+.secure p 
+		{
+			width: 500px;
+			height: 50px;
+		}
+#footer {
+	text-align: center;
+	text-overflow: inherit;
+	padding: 20px 0px 15px 0px;
+	font-weight: normal;
+}
